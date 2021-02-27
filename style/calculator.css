@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 0.5;
+    background: linear-gradient(to left , #0583a3,#51acd3 );
+}
+.author {
+    width: 280px;
+    margin: 10px auto 50px;
+    text-align: center;
+}
+.calculator {
+    width: 260px;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #f5d106; 
+    border-radius: 15px;
+    background:linear-gradient(to bottom,gray,#333333);
+}
+#display {
+    background:linear-gradient(to right,rgb(7, 196, 92),rgb(146, 221, 7));
+    width: 230px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+    height: 20px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid rgb(24, 34, 170);
+    color: aquamarine;
+    border-radius: 30px;
+    outline: none;
+}
+.btnDesign {
+    width: 43px;
+    height: 43px;
+    padding: 0;
+    border:none;
+    margin: 5px;
+    font-weight: 300;
+    border-radius: 50%;
+    outline: none;
+    font-size: 22px;
+    background: deepskyblue;
+    transition: .5s;
+}
+.btnDesign:hover  {
+    background: #4a444b;
+    color: orangered;
+}
+.operatorDesign {
+    width: 43px;
+    height: 43px;
+    padding: 0;
+    color: white;
+    border:none;
+    margin: 5px;
+    font-weight: 300;
+    border-radius: 50%;
+    outline: none;
+    font-size: 22px;
+    background: linear-gradient(to right, #024775, #222222);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.operatorDesign:hover {
+    background: #a73906;
+    color: rgb(4, 170, 54);
+}
+#zero {
+    width: 110px;
+    height: 43px;
+    border:none;
+    font-size: 22px;
+    font-weight: 300;
+    border-radius: 30px;
+    background-color: aqua;
+    outline: none;
+    transition: .3s;
+}
+#zero:hover {
+    background: #4a444b;
+    color: orangered;
+}
+.shadow-type {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 3px;
+    position: relative;
+    color: #00b3b4;
+    text-shadow: 3px 3px 0px #e7eef1, 8px 8px 0 rgba(0, 0, 0, .1);
+}
+.threed-word {
+    margin: 0;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    line-height: 50px;
+    letter-spacing: 5px;
+    color: #f2395a;
+    transform: skew(-5deg,-5deg) rotate(5deg);
+    transform-origin: center center;
+    text-shadow: 1px 1px #d10e31,
+                 2px 2px #d10e31,
+                 3px 3px #d10e31,
+                 4px 4px #d10e31,
+                 5px 5px #d10e31,              
+                 6px 6px #d10e31,
+                 7px 7px #d10e31,
+                 8px 8px #890920,
+                 9px 9px #890920,
+                 10px 10px #890920,
+                 11px 11px 15px rgba(0, 0, 0, .5);
+  }
